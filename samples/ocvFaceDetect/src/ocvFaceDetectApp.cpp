@@ -1,8 +1,9 @@
 #include "cinder/app/App.h"
+#include "cinder/gl/gl.h"
 #include "cinder/app/RendererGl.h"
 #include "cinder/Capture.h"
 
-#include "CinderOpenCv.h"
+#include "CinderOpenCV.h"
 
 using namespace ci;
 using namespace ci::app;

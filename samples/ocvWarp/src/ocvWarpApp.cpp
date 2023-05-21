@@ -1,4 +1,5 @@
 #include "cinder/app/App.h"
+#include "cinder/gl/gl.h"
 #include "cinder/app/RendererGl.h"
 #include "cinder/ImageIo.h"
 #include "cinder/params/Params.h"

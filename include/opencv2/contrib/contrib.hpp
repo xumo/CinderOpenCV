@@ -255,7 +255,7 @@ public:
 
 namespace cv
 {
-
+	using namespace std;
     class CV_EXPORTS Octree
     {
     public:

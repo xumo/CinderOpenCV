@@ -1,10 +1,12 @@
 #include "cinder/app/App.h"
 #include "cinder/app/RendererGl.h"
+#include "cinder/gl/gl.h"
 #include "cinder/ImageIo.h"
+#include "cinder/gl/Texture.h"
 
-#include "CinderOpenCv.h"
+#include "CinderOpenCV.h"
 
-#include "Resources.h"
+//#include "Resources.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -35,7 +37,7 @@ void ocvBasicApp::setup()
 
 void ocvBasicApp::draw()
 {
-	gl::clear();
+	gl::clear(Color(0, 0, 0));
 	gl::draw( mTexture );
 }
 
